@@ -21,9 +21,9 @@ public class PlayerHP : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             HP--;
-            HPText.GetComponent<Text>().text = "Health: " + Health;
-            HPBar.GetComponent<Slider>().value = Health;
-            if (Health <= 0)
+            HPText.GetComponent<Text>().text = "Health: " + HP;
+            HPBar.GetComponent<Slider>().value = HP;
+            if (HP <= 0)
 
             {
                 //Reload the level
