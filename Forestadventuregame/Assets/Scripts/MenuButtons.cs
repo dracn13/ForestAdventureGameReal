@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtons : MonoBehaviour
 {
-    void update()
+    void Update()
     {
         // check to see if p key is pressed
         if (Input.GetKeyDown(KeyCode.P))
