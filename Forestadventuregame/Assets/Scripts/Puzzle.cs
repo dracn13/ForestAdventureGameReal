@@ -25,20 +25,20 @@ public class Puzzle : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player" && Dark.GetComponent<SpriteRenderer>().enabled == true)
         {
+            Buttons ++;
+            collision.gameObject.GetComponent<ButtonCount>().ModifyButtonCount(1);
             Dark.GetComponent<SpriteRenderer>().enabled = false;
-            Buttons++;
+            Debug.Log(Buttons);
 
         }
         else if (collision.gameObject.tag == "Player" && Dark.GetComponent<SpriteRenderer>().enabled == false)
         {
             Dark.GetComponent<SpriteRenderer>().enabled = true;
             Buttons--;
-            Debug.Log (Buttons);
+            collision.gameObject.GetComponent<ButtonCount>().ModifyButtonCount(-1);
+            Debug.Log ("Door Count is" + Buttons);
         }
-        if (Buttons >= 11)
-            {
-            Door.SetActive(false);
-        }
+      
     }
 }
 
