@@ -25,7 +25,7 @@ public class EnemyHP : MonoBehaviour
             if (EHP <= 0)
 
             {
-                Destroy(collision.gameObject);
+                Destroy(gameObject);
             }
         }
     }
