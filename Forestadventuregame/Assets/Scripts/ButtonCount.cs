@@ -13,7 +13,7 @@ public class ButtonCount : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (BCount >= 12)
+        if (BCount >= 13)
         {
             HideDoor.SetActive(false);
         }else
