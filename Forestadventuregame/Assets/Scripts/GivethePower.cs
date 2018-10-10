@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class GivethePower : MonoBehaviour
 {
-  
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Shooting")
         {
             GetComponent<PlayerShoot>().enabled = true;
-            Destroy.gameObject(ThePower);
+            Destroy(collision.gameObject);
         }
     }
 }
