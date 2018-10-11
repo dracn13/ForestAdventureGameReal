@@ -54,7 +54,7 @@ public class EnemyChase : MonoBehaviour
         }
         else
         {
-            //pace back and forth, because we`re home and the player isint close
+            //pace back and forth, because we`re home and the player isnt close
             Vector3 displacement = transform.position - startPosition;
             float distanceFromStart = displacement.magnitude;
             if (distanceFromStart >= paceDistance)
