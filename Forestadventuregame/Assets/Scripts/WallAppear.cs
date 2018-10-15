@@ -4,7 +4,8 @@ using UnityEngine;
 
 
 
-public class WallAppear : MonoBehaviour {
+public class WallAppear : MonoBehaviour
+{
 
     public GameObject Wall;
     public GameObject Text;
@@ -14,6 +15,10 @@ public class WallAppear : MonoBehaviour {
     {
         Wall.SetActive(true);
         Text.SetActive(true);
+    if (Text.activeSelf == true && timer > 0.3f)
+        {
+            timer = 0;
+            Text.SetActive(false);
+        }
     }
-	
 }
