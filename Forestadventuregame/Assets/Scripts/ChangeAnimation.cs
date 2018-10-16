@@ -23,7 +23,6 @@ public class ChangeAnimation : MonoBehaviour
             Animator a = GetComponent<Animator>();
             float x = a.GetFloat("X");
             float y = a.GetFloat("Y");
-            float Idle = a.GetFloat("Idle");
 
             GetComponent<Animator>().runtimeAnimatorController = controller;
         }
