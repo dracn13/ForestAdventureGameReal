@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - Shooting
   - PlayerSwitch
+  - Boss
   layers:
   - Default
   - TransparentFX

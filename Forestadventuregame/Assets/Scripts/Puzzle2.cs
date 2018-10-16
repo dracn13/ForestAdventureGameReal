@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Puzzle2 : MonoBehaviour {
+public class Puzzle2 : MonoBehaviour
+{
 
     public GameObject Dark;
     public int Buttons2 = 0;
@@ -23,7 +24,7 @@ public class Puzzle2 : MonoBehaviour {
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Enemy" && Dark.GetComponent<SpriteRenderer>().enabled == true)
+        if (collision.gameObject.tag == "Player" && Dark.GetComponent<SpriteRenderer>().enabled == true)
         {
             Buttons2++;
             collision.gameObject.GetComponent<ButtonCount2>().ModifyButtonCount2(1);
@@ -31,7 +32,7 @@ public class Puzzle2 : MonoBehaviour {
             Debug.Log(Buttons2);
 
         }
-        else if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Enemy"  && Dark.GetComponent<SpriteRenderer>().enabled == false)
+        else if (collision.gameObject.tag == "Player" && Dark.GetComponent<SpriteRenderer>().enabled == false)
         {
             Dark.GetComponent<SpriteRenderer>().enabled = true;
             Buttons2--;
@@ -41,4 +42,5 @@ public class Puzzle2 : MonoBehaviour {
 
     }
 }
+
 

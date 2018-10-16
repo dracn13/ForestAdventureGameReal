@@ -25,7 +25,7 @@ public class PlayerHP : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
-        if (timer > 0.5f && collision.gameObject.tag == "Enemy")
+        if (timer > 0.5f && collision.gameObject.tag == "Enemy" || timer > 0.5f && collision.gameObject.tag == "Boss")
             {
             timer = 0;
             HP--;
