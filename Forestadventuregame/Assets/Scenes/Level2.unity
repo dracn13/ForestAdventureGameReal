@@ -94781,6 +94781,7 @@ MonoBehaviour:
   Text: {fileID: 733729687}
   Boss: {fileID: 1165489462}
   Player: {fileID: 970718892}
+  Wall2: {fileID: 1851375491}
 --- !u!60 &1759906548
 PolygonCollider2D:
   m_ObjectHideFlags: 0
