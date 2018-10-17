@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 456864453}
   - component: {fileID: 456864452}
   m_Layer: 5
-  m_Name: PauseMenu
+  m_Name: DeadScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
