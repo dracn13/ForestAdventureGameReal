@@ -17,34 +17,39 @@ public class EnemiesSpawn : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (timer >= 10)
+      
+
+    }
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player") 
+
+        {
+            Debug.Log("Hi");
+            timer += Time.deltaTime;
+            
+        }
+        if (timer >= 10 && timer <= 14)
         {
             Slime.SetActive(true);
         }
-        if (timer >= 17)
+        if (timer >= 17 && timer <= 21)
         {
             Skeleton.SetActive(true);
         }
-        if (timer >= 22)
+        if (timer >= 22 && timer <= 26 )
         {
             Slime2.SetActive(true);
-                Skeleton2.SetActive(true);
+            Skeleton2.SetActive(true);
         }
-        if (timer >= 30)
+        if (timer >= 28 && timer <=32)
         {
             Onion.SetActive(true);
 
         }
-        if (timer >= 40)
+        if (timer >= 34 && timer <= 38)
         {
             SkeletonBoss.SetActive(true);
-        }
-	}
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            timer += Time.deltaTime;
         }
 
     }
