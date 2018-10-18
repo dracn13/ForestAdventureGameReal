@@ -9,6 +9,7 @@ public class PlayerHP : MonoBehaviour
     public int HP = 10;
     public Text HPText;
     public Slider HPBar;
+    public GameObject Deathcanvas;
     float timer = 0;
 
      void Update()
@@ -34,8 +35,8 @@ public class PlayerHP : MonoBehaviour
             if (HP <= 0)
 
             {
-                //Reload the level
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                Time.timeScale = 0;
+                Deathcanvas.SetActive(true);
             }
         }
     }
