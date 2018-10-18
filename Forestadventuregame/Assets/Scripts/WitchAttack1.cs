@@ -19,9 +19,10 @@ public class WitchAttack1 : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        timer += Time.deltaTime;
         Vector3 playerPosition = player.transform.position;
         Vector3 chaseDirection = playerPosition - transform.position;
-        if (chaseDirection.magnitude < chaseTriggerDistance)
+        if (chaseDirection.magnitude < chaseTriggerDistance && timer > 2.5f)
         {
             timer = 0;
             Vector3 shootDir = chaseDirection;
@@ -32,7 +33,6 @@ public class WitchAttack1 : MonoBehaviour
             //always do destination - start position
             GameObject Bullet = (GameObject)Instantiate(prefab, transform.position + offset, Quaternion.identity);
             Bullet.GetComponent<Rigidbody2D>().velocity = shootDir;
-            Destroy(Bullet, 0.5f);
         }
     }
 }

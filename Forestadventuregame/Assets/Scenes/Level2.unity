@@ -209,6 +209,11 @@ Prefab:
       propertyPath: chaseSpeed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114920218450004314, guid: 12bc2d696fa1a2044b73792d09e8a560,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 970718892}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
   m_IsPrefabAsset: 0
@@ -94660,6 +94665,72 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1583271178
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4101797381142642, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 24.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101797381142642, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101797381142642, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101797381142642, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101797381142642, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101797381142642, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101797381142642, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101797381142642, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 212354869602736408, guid: 12bc2d696fa1a2044b73792d09e8a560,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114920218450004314, guid: 12bc2d696fa1a2044b73792d09e8a560,
+        type: 2}
+      propertyPath: chaseTriggerDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114920218450004314, guid: 12bc2d696fa1a2044b73792d09e8a560,
+        type: 2}
+      propertyPath: chaseSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114920218450004314, guid: 12bc2d696fa1a2044b73792d09e8a560,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 970718892}
+    - target: {fileID: 1023056706100304, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+      propertyPath: m_Name
+      value: Skeleton (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12bc2d696fa1a2044b73792d09e8a560, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1600231704
 GameObject:
   m_ObjectHideFlags: 0
