@@ -17230,6 +17230,26 @@ Prefab:
       propertyPath: m_Name
       value: SwarmEnemy (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114624817167403720, guid: 5cf7703056f7b7546b00fefa211b474d,
+        type: 2}
+      propertyPath: EHP
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 212900147808082780, guid: 5cf7703056f7b7546b00fefa211b474d,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212900147808082780, guid: 5cf7703056f7b7546b00fefa211b474d,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.23113209
+      objectReference: {fileID: 0}
+    - target: {fileID: 212900147808082780, guid: 5cf7703056f7b7546b00fefa211b474d,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.26799622
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cf7703056f7b7546b00fefa211b474d, type: 2}
   m_IsPrefabAsset: 0
@@ -17555,11 +17575,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4196542890683850, guid: 8f0b3c488eba6c4409764e7223cad64f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 65.4
+      value: 66.09
       objectReference: {fileID: 0}
     - target: {fileID: 4196542890683850, guid: 8f0b3c488eba6c4409764e7223cad64f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.59
+      value: 5.56
       objectReference: {fileID: 0}
     - target: {fileID: 4196542890683850, guid: 8f0b3c488eba6c4409764e7223cad64f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -18542,11 +18562,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4140040469495448, guid: 34c895e72a1d5d4459f224b4cd97e4a2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 69.4563
+      value: 70.2
       objectReference: {fileID: 0}
     - target: {fileID: 4140040469495448, guid: 34c895e72a1d5d4459f224b4cd97e4a2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.5694
+      value: 5.44
       objectReference: {fileID: 0}
     - target: {fileID: 4140040469495448, guid: 34c895e72a1d5d4459f224b4cd97e4a2, type: 2}
       propertyPath: m_LocalPosition.z
@@ -18571,6 +18591,21 @@ Prefab:
     - target: {fileID: 4140040469495448, guid: 34c895e72a1d5d4459f224b4cd97e4a2, type: 2}
       propertyPath: m_RootOrder
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 212256812633996410, guid: 34c895e72a1d5d4459f224b4cd97e4a2,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 212256812633996410, guid: 34c895e72a1d5d4459f224b4cd97e4a2,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.99192387
+      objectReference: {fileID: 0}
+    - target: {fileID: 212256812633996410, guid: 34c895e72a1d5d4459f224b4cd97e4a2,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34c895e72a1d5d4459f224b4cd97e4a2, type: 2}
