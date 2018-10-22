@@ -18398,7 +18398,7 @@ MonoBehaviour:
   HP: 10
   HPText: {fileID: 1008415807}
   HPBar: {fileID: 2022138773}
-  Deathcanvas: {fileID: 0}
+  Deathcanvas: {fileID: 1461936699}
 --- !u!114 &957621199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18573,7 +18573,7 @@ MonoBehaviour:
   HP: 10
   HPText: {fileID: 1008415807}
   HPBar: {fileID: 2022138773}
-  Deathcanvas: {fileID: 0}
+  Deathcanvas: {fileID: 1461936699}
 --- !u!114 &970718898
 MonoBehaviour:
   m_ObjectHideFlags: 0
